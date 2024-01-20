@@ -8,9 +8,9 @@ function generateRandomNumber(){
     console.log(playerOne,playerTwo);
 
 
-    let imgOne = "dice" + playerOne.toString() + ".png";
+    let imgOne = "./dice" + playerOne.toString() + ".png";
 
-    let imgTwo = "dice" + playerTwo.toString() + ".png";
+    let imgTwo = "./dice" + playerTwo.toString() + ".png";
 
     document.getElementById("dice-one").setAttribute("src",imgOne);
     document.getElementById("dice-two").setAttribute("src",imgTwo);
